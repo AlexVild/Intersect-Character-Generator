@@ -246,7 +246,6 @@ namespace Intersect_Character_Generator
             {
                 _layers[0].Draw(g, size.Width / 4, size.Height / 4); //Base
                 _layers[1].Draw(g, size.Width / 4, size.Height / 4); //Eyes
-                _layers[2].Draw(g, size.Width / 4, size.Height / 4); //Hair
                 _layers[3].Draw(g, size.Width / 4, size.Height / 4); //Facial Hair
                 _layers[4].Draw(g, size.Width / 4, size.Height / 4); //Headwear
                 if (chkPantsAfterShirt.Checked)
@@ -287,6 +286,7 @@ namespace Intersect_Character_Generator
                     _layers[6].Draw(g, size.Width / 4, size.Height / 4); //Shoulders
                     _layers[7].Draw(g, size.Width / 4, size.Height / 4); //Gloves
                 }
+                _layers[2].Draw(g, size.Width / 4, size.Height / 4); //Hair
                 _layers[11].Draw(g, size.Width / 4, size.Height / 4); //Accessory 1
                 _layers[12].Draw(g, size.Width / 4, size.Height / 4); //Accessory 2
                 _layers[13].Draw(g, size.Width / 4, size.Height / 4); //Accessory 3
